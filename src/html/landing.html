@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Московский картофель</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <div class="__dd">
+        @@include('blocks/blocks.banner.html')
+        @@include('blocks/blocks.heading.html', {
+            "text": "Новогодняя линейка",
+            "subtext": "Новогодняя линейка «Московский картофель» должна быть броской, <br> стильной, современной и в то же время оригинальной и запоминающейся. <br> Нами был разработан дизайн — концепт и верстка упаковки"
+        })
+        @@include('blocks/blocks.parallax.html')
+        @@include('blocks/blocks.heading.html', {
+            "text": "Фотосессия",
+            "subtext": "В основу концепта лег персонаж Деда Мороза — но не привычного милого <br> дедушки, а озорного, энергичного и харизматичного искателя приключений. <br> Для точной передачи были нарисованы раскадровки, проведен кастинг на роль <br> Деда Мороза, найдены необходимые реквизиты и организована фотосессия"
+        })
+        @@include('blocks/blocks.photos.html')
+        @@include('blocks/blocks.heading.html', {
+            "text": "Фирменная упаковка",
+            "subtext": "Этот дизайн идеально вписался в общую концепцию бренда, <br> но в то же время придал свежести и новизны компании <br> и позволил еще раз заявить о себе"
+        })
+        @@include('blocks/blocks.chips.html')
+        @@include('blocks/blocks.thanks.html')
+    </div>
+    <script src="dist/js/jquery-3.3.1.min.js"></script>
+    <script src="dist/js/main.js"></script>
+</body>
+</html>
