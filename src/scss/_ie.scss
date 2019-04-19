@@ -1,3 +1,6 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    
+    .__dd__thanks__chips__block,
+    .__dd__banner__chips__block {
+        transition: none !important;
+    }
 }
